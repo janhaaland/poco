@@ -2,12 +2,12 @@ from openai import OpenAI
 import time
 import streamlit as st
 
-hide_st_style = """
+hide_streamlit_style = """
             <style>
             footer {visibility: hidden !important;}
             </style>
             """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 def main():
     st.set_page_config(
